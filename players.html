@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>神経衰弱対戦</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+                <div class="col-xl-3 col-lg-1 col-md-1 "></div>
+                <div class="col-xl-6 col-lg-10 col-md-10  sp_fild">
+                    <div class="main-fild">
+                        <div class="top_field">
+                            <div class="button-area">
+                                <button id="start_button" type="button" class="btn btn-success">Start</button>
+                                <button id="back_button" type="button" class="btn btn-danger">Back to menu</button>
+                            </div>
+                            <div id="nowPlayer" ></div>
+                            <div id="score_fild">
+                                <div class="score">Score</div>
+                                <div id="score_fild_bottom">
+                                    <div id="player1_score"></div>
+                                    <div id="player2_score"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="field" ></div>
+                    </div>
+
+                </div>
+                <div class="col-xl-3 col-lg-1 col-md-1"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="players.js"></script>
+</body>
+</html>
