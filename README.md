@@ -8,6 +8,4 @@ If the two cards have the same picture or number, then they keep the cards, othe
 The winner is the person with the most cards when all the cards have been taken.
 
 ## Description
-First, you can add to the list what to do today.<br>
-And if you're done with that, you can remove it from the list or draw a line on the text.<br> 
-Also, if you want to edit the text in the todo list, you can change the text from the edit mark.
+
